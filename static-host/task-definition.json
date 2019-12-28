@@ -3,11 +3,11 @@
     {
       "name": "nginx",
       "image": "378836287872.dkr.ecr.us-east-1.amazonaws.com/nggin111:revision_2",
-      "memory": "256",
+      "memory": 256,
       "essential": true,
       "portMappings": [
         {
-          "containerPort": "8000",
+          "containerPort": 8000,
           "protocol": "tcp"
         }
       ]
